@@ -1,0 +1,116 @@
+.container_modal
+{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(6px);
+    padding: 0px 20px;
+    transition: all 300ms;
+}
+
+
+
+
+.form
+{
+    max-width: 400px    ;
+    width: 100%;
+    height: 650px;
+    background: rgba(95, 95, 147, 0.6);
+    border-radius: 20px;
+    box-shadow: rgba(95, 95, 147, 0.15) 1.95px 1.95px 2.6px;
+    padding: 20px 5px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    
+    
+    
+}
+
+
+
+.contaner_input_form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    gap: 25px;
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.name ,.last_name, .email, .birthday, .password
+{
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+
+}
+
+input
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #03BFCB;
+    outline: none;
+    border-radius: 5px;
+    background: #231E39;
+    color: #B3B8CD;
+    
+}
+
+input::placeholder
+{
+    color: #B3B8CD;
+}
+
+
+.btn-register
+{
+    padding: 10px 30px;
+    font-size: 18px;
+    background: #03BFCB;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: all 300ms;
+
+}
+
+.icon1
+{
+    position: absolute;
+    right: 7%;
+    top: 3%;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    
+   
+}
+
+.image_user
+{
+    display: none;
+}
+
+
+.error
+{
+ color: rgb(245, 205, 205);
+ 
+}

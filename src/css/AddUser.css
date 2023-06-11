@@ -1,0 +1,17 @@
+.btn-add
+{
+    padding: 10px 30px;
+    font-size: 15px;
+    background: #03BFCB;
+    border: 1px solid #231E39;
+    outline: none;
+    border-radius: 20px;
+    transition: all 300ms;
+    
+}
+
+.btn-add:hover
+{
+    background: #089ea8;
+    cursor: pointer;
+}

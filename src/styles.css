@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+	box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+body
+{
+    background: #28223F;
+    color: #fff;
+
+    /* car background #231E39 */
+    /* car color*/
+    /* primary color  #03BFCB */
+
+}
+
+.container 
+{
+    
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    min-height: calc(100vh - 100px);
+    /* border: 1px solid #fff; */
+}
+
+.container_users
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+    gap: 15px;
+    
+}

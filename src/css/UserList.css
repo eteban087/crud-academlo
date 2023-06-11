@@ -1,0 +1,144 @@
+/* .container_users
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+    gap: 15px;
+    border: 1px solid #fff;
+} */
+
+.car_user
+{
+    width: 100%;
+    background: #231E39 ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    /* gap: 20px; */
+    /* padding: 20px 0px; */
+    color: #B3B8CD ;
+}
+.span_primary
+{
+    color: #03BFCB ;
+}
+
+.header_car
+{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.body_car
+{
+    
+    min-height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+    padding: 10px;
+
+}
+
+
+
+.container_photho
+{
+    width: 120px;
+    height: 120px;
+   border: 1px solid #03BFCB;
+   padding: 7px;
+   border-radius: 50%;
+
+}
+
+ img 
+{
+    width: 100%;
+    border-radius: 50%;
+   
+}
+
+.container_email
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn_editar
+{
+    background: #03BFCB;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px ;
+    transition: all 300ms;
+}
+
+.btn_eliminar
+{
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid #03BFCB;
+    outline: none;
+    border-radius: 3px ;
+    color: #03BFCB;
+    transition: all 300ms;
+}
+
+.btn_eliminar:hover
+{
+    background: #1F1A36;
+    cursor: pointer;
+}
+
+
+.btn_editar:hover
+{
+   
+    background: #089ea8;
+    cursor: pointer;
+}
+
+.container_buttons
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    /* border-bottom: 2px solid #fff; */
+}
+
+.footer_car
+{
+    width: 100%;
+    /* border: 1px solid #fff; */
+    background: #1F1A36;
+    height: 70px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.spacing
+{
+    margin: 10px;
+}
+
+
